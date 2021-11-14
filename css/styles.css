@@ -162,9 +162,28 @@ main {
 	line-height: 24px;
 }
 
-
-.Image li:nth-child(2) {
+.Basket1 {
 	margin-left: 230px;
+}
+
+.Basket2 {
+	margin-left: 60px;
+	font-size: 12px; 
+	margin-right: 10px; 
+	padding-bottom: -5px; 
+	font-weight: bold;
+}
+
+.Basket3 {
+	margin-left: 255px;
+}
+
+.Basket4 {
+	margin-left: 250px;
+}
+
+.Basket5 {
+	margin-left: 210px;
 }
 
 .Text p, h3 {
@@ -212,20 +231,26 @@ footer {
 	height: 80px;
 	background-color: #FFFFFF;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
 	padding-top: 20px;
+	flex-direction: row;
 }
 
 .Footer-left {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
+	color: #B6BCBF;
 	font-size: 16px;
 	line-height: 22px;
 	margin-left: 132px;
+	width: 100%;
 
+}
+
+.Footer-right {
+	width: 100%;
 }
 
 .Footer-right ul {
@@ -324,6 +349,27 @@ header  {
 	margin-top: 25px;
 }
 
+.Basket1 {
+	margin-left: 175px;
+}
+
+.Basket2 {
+	margin-left: 30px;
+	font-size: 10px;
+}
+
+.Basket3 {
+	margin-left: 195px;
+}
+
+.Basket4 {
+	margin-left: 190px;
+}
+
+.Basket5 {
+	margin-left: 155px;
+}
+
 .Image {
 	border-top: 1px;
 	border-radius: 20px 20px 0px 0px; 
@@ -331,8 +377,16 @@ header  {
 	height: 196px;
 }
 
+
 .Text p, h3 {
-	margin: 20px 20px -5px 20px;
+	margin: 15px 10px -5px 10px;
+}
+
+.Text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
 }
 
 .Text p:nth-child(1) {
@@ -358,5 +412,46 @@ header  {
 .Footer-right {
 	width: 100%;
 }
+
+footer {
+	height: 80px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-top: 20px;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+}
+
+.Footer-left {
+	font-size: 16px;
+	line-height: 22px;
+	margin-left: 6px;
+	width: 100%;
+	color: #B6BCBF;
+}
+
+.Footer-right {
+	width: 100%;
+}
+
+.Footer-right ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 0px;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.Footer-right ul li {
+	margin-left: 6px;
+	margin-right: 20px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
 
 }
