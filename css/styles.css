@@ -275,9 +275,9 @@ footer {
 }
 
 
-   @media screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 800px) {
     
-   html, body {
+html, body {
    	width: 375px;
     }
 
@@ -429,6 +429,7 @@ footer {
 	margin-left: 6px;
 	width: 100%;
 	color: #B6BCBF;
+	text-align: center;
 }
 
 .Footer-right {
