@@ -278,7 +278,7 @@ footer {
 @media screen and (max-device-width: 800px) {
     
 html, body {
-   	width: 375px;
+   	width: 100%;
     }
 
 header  {
